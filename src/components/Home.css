@@ -1,0 +1,282 @@
+.home-section {
+
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+.home-section .home-content {
+
+  width: 100%;
+  display: grid;
+  min-height: calc(100vh - 80px);
+  grid-template-columns: 0.2fr 1fr 1fr;
+
+  place-items: space-between;
+  place-content: center;
+
+}
+
+.social_icons {
+  position: fixed;
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1.6rem;
+  margin: auto 0;
+  height: 100vh;
+  place-content: center;
+}
+
+.icon {
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  color: whitesmoke;
+  opacity: 0.8;
+
+}
+
+.home-section .home-content h1 {
+  font-family: 'Bevan', cursive;
+  font-size: 75px;
+  letter-spacing: 18px;
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 2px #d2c8da,
+    0 0 4px #8F00FF,
+    0 0 6px #8F00FF,
+    0 0 10px #8F00FF;
+  mix-blend-mode: luminosity;
+
+
+}
+
+
+.custom-btn {
+  color: #0bf4f3;
+  width: 180px;
+  height: 46px;
+  padding: 1.25rem 1.75rem;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+
+  margin: 18px 0px;
+
+  border-radius: 3px;
+
+}
+
+
+
+.btn-4 {
+  color: #0bf4f3;
+  padding: 0;
+  border: 1px solid #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px inset;
+
+}
+
+.btn-4::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 6px;
+  width: 90%;
+  height: 70%;
+  border: 1px solid #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3 inset;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.btn-4:hover:after {
+  opacity: 1;
+}
+
+
+
+/* .myname{
+
+  
+  color: transparent !important; ;
+  -webkit-text-stroke: 1px #fff !important;
+  background:url('../assets/back.png') ;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+} */
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.home-section .home-content h2 {
+  
+  font-size: 22px;
+  letter-spacing: 0.4em;
+  font-weight: 700;
+  padding-top: 7px;
+  color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+.img-graident {
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  background-image: url('../../src/assets/final.PNG');
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+
+
+
+}
+
+.title {
+  position: relative;
+}
+
+
+
+
+/* .textanim{
+  position: absolute;
+  top: 150px;
+  left: -50px;
+
+  animation: rotate_cirkel 20s linear infinite;
+  width: 10rem;
+  height: 10rem;
+ mix-blend-mode:luminosity;
+
+} */
+@keyframes rotate_cirkel {
+  0% {
+    transform: rotate(0deg);
+
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:920px) {
+  .home-section .home-content {
+    min-width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    width: 93%;
+
+    height: 100vh;
+    display: flex;
+    margin: auto;
+  }
+
+  .home-section .home-content {
+    grid-gap: 0rem;
+
+  }
+
+  .home-section .home-content h1 {
+    font-size: 60px;
+  }
+
+  .home-section .home-content h2 {
+    font-size: 20px;
+  }
+
+
+.home_social {
+  display: none;
+}
+
+}
+
+@media (max-width:758px) {
+
+  .home-section .home-content {
+    min-width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .img-graident {
+    margin-top: 20px;
+
+
+  }
+  .home-section .home-content h1 {
+    font-size: 55px;
+  }
+
+  .home-section .home-content h2 {
+    font-size: 18px;
+  }
+
+}  
+  @media (max-width:500px) {
+
+    .home-section .home-content {
+      min-width: 93%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  
+    }
+  
+    .title {
+      padding: 2%;
+    }
+  
+    .home-section .home-content h1 {
+      font-size: 50px;
+    }
+  
+    .home-section .home-content h2 {
+      font-size: 20px;
+    }
+  
+  }
+
+  @media (max-width:400px) {
+    .img-graident {
+      margin: auto;
+      width: 150px;
+      height: 150px;
+    }
+  
+    .home-section .home-content h1 {
+      font-size: 30px;
+    }
+  
+    .home-section .home-content h2 {
+      font-size: 15px;
+    }
+  
+  }
+  
+  
+
+
+

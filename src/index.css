@@ -1,0 +1,9 @@
+body {
+ width: 100vh;
+ height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Valorant;
+  src: url('./assets/fonts/Valorant\ Font.ttf');
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: black;
+  --secondary-color: #ffffff;
+  --background-line-color:rgba(51, 51, 51, 0.2);
+  --pc-width: 75%;
+  --tab-width:90%;
+  --phone-width:100%;
+ 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+ background-color:black;
+ border:3px solid white;
+ border-radius: 10px;
+}
+
+body{
+  background-color: var(--primary-color);
+  width: 100%;
+  color: var(--secondary-color);
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.bg-flex{
+ 
+  position: fixed;
+  top: 0px;
+  left:0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -99;
+
+}
+.bg_lines {
+
+  width: 95%;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+ 
+  
+  
+}
+.bg_lines .line {
+  position: relative;
+  display: block;
+  width: 1px;
+  height: 100vh;
+  cursor: none;
+  pointer-events: none;
+  background: var(--background-line-color);
+ 
+}
+
+.container{
+  width: 85%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.content{
+  position: relative;
+  top:80px;
+  width: 100%;
+  min-height: 100vh;
+  
+}

@@ -1,0 +1,32 @@
+.Project-section{
+    padding-top: 40px;
+    min-height: calc(100vh - 40px);
+    width: 100%;
+
+}
+
+.Project-section .project_content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+.project_heading{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+@media (max-width:900px) {
+
+    .Project-section .project_content {
+        min-width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+    
+}

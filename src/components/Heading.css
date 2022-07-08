@@ -1,0 +1,40 @@
+.heading_title {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.tracking_wide{
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+   
+    font-weight: 500;
+}
+.tracking_line{
+    display:inline-block;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 1px;
+    width: 50px;
+    background-color: rgb(255, 255, 255,0.4) ;
+    font-family: 'Courier New', Courier, monospace;
+}
+.heading-pattern{
+    display: inline-flex;
+    align-items: center;
+}
+
+@media (max-width:500px) {
+
+    .heading_title {
+      
+        font-size: 20px;
+      
+        
+    
+    }
+  }
