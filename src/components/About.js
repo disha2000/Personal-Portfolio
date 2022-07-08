@@ -62,7 +62,7 @@ export default function About() {
                   <img src={python} alt = 'python'/>
                 </div>
               </div>
-              <div className='column' data-aos="zoom-out-left">
+              <div className='column' data-aos="zoom-in">
                 <div className='skill-icon'>
                   <img src={vscode} alt = 'vscode'/>
                 </div><div className='skill-icon'>
@@ -72,7 +72,7 @@ export default function About() {
                 </div>
 
               </div>
-              <div className='column' data-aos="zoom-out-left">
+              <div className='column' data-aos="zoom-in">
                 <div className='skill-icon'>
                   <img src={mongodb} alt = 'mongodb'/>
                 </div>

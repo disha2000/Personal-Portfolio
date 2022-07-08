@@ -52,11 +52,12 @@
 
 .about_skills {
     /* background-color: blue; */
-
+     
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0.9;
+    
     padding: 2px;
     
   
@@ -80,7 +81,6 @@
     height: 67%;
     border-radius: 50%;
   
-
 }
 
 
@@ -132,4 +132,5 @@
         grid-template-columns: 1fr;
 
     }
+    
 }
