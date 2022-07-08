@@ -30,8 +30,8 @@ export default function App() {
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
-          <span className="line"></span>
-          <span className="line"></span>
+          <span className="line unused"></span>
+          <span className="line unused"></span>
 
         </div>
       </div>
