@@ -262,8 +262,8 @@
   @media (max-width:400px) {
     .img-graident {
       margin: auto;
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
     }
   
     .home-section .home-content h2 {

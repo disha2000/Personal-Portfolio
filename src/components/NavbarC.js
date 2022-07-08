@@ -23,7 +23,7 @@ export default function NavbarC() {
                             return (
 
                                 <li className='active' key={index} data-aos="zoom-in">
-                                    <a className={item.cName} href={item.url}><span aria-hidden="true">{item.title}</span></a>
+                                    <a className={item.cName} href={item.url} onClick = {handleClick}><span aria-hidden="true">{item.title}</span></a>
                                 </li>
                             )
                         })}

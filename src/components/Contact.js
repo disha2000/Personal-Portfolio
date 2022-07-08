@@ -19,6 +19,7 @@ export default function Contact() {
               <a href={"mailto:" + emailId}> <button className="custom-btn btn-4 contact-btn">Contact Me </button></a>
              
               <video className = "videoanim" src={video} width="750" height="500" muted
+                playsInline
                 autoPlay
                 loop>
                 <source src={video} type="video/mp4" />
