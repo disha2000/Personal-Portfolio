@@ -16,8 +16,8 @@ export default function Home() {
         </div>
         <div className="title"   data-aos="zoom-in-down">
           <h1 >Hello,<br/> I'm <br/>Disha <br/>Doshi.</h1>
-          <h2 >I am Web Developer</h2>
-          <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Resume</button></a>
+          <h2 >I am a Web Developer</h2>
+          <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Resume</button></a> 
         
         </div>
         <div className='img-graident'>

@@ -20,7 +20,7 @@ import nodejs from '../assets/skills/nodejs.svg'
 import Heading from './Heading'
 export default function About() {
   return (
-    <div className='About-section' id = 'about_'>
+    <div className='About-section' id='about_'>
       <div className='about_content'>
         <div className="unused"></div>
         <div className='skill_section'>
@@ -30,54 +30,54 @@ export default function About() {
 
               <div className='column' data-aos="zoom-out-right">
                 <div className='skill-icon'>
-                  <img src={cpp} alt = 'cpp' />
+                  <img src={cpp} alt='cpp' />
                 </div>
                 <div className='skill-icon' data-aos="zoom-out-right">
-                  <img src={bootstrap}  alt = 'bootstrap'/>
+                  <img src={bootstrap} alt='bootstrap' />
                 </div>
               </div>
               <div className='column' data-aos="zoom-out-right">
                 <div className='skill-icon'>
-                  <img src={html} alt = 'html'/>
+                  <img src={html} alt='html' />
                 </div>
                 <div className='skill-icon'>
-                  <img src={css} alt = 'css'/>
+                  <img src={css} alt='css' />
                 </div><div className='skill-icon'>
-                  <img src={js}  alt = 'js'/>
+                  <img src={js} alt='js' />
                 </div>
 
               </div>
               <div className='column' >
                 <div className='skill-icon'>
-                  <img src={git} alt = 'git'/>
+                  <img src={git} alt='git' />
                 </div><div className='skill-icon'>
-                  <img src={gitbash} alt = 'gitbash'/>
+                  <img src={gitbash} alt='gitbash' />
                 </div><div className='skill-icon'>
-                  <img src={react} alt = 'react'/>
+                  <img src={react} alt='react' />
                 </div><div className='skill-icon'>
-                  <img src={java} alt = 'java'/>
+                  <img src={java} alt='java' />
                 </div><div className='skill-icon'>
-                  <img src={mysql} alt = 'mysql'/>
+                  <img src={mysql} alt='mysql' />
                 </div><div className='skill-icon'>
-                  <img src={python} alt = 'python'/>
+                  <img src={python} alt='python' />
                 </div>
               </div>
               <div className='column' data-aos="zoom-in">
                 <div className='skill-icon'>
-                  <img src={vscode} alt = 'vscode'/>
+                  <img src={vscode} alt='vscode' />
                 </div><div className='skill-icon'>
-                  <img src={dbt} alt = 'dbt'/>
+                  <img src={dbt} alt='dbt' />
                 </div><div className='skill-icon'>
-                  <img src={firebasec} alt = 'firebase'/>
+                  <img src={firebasec} alt='firebase' />
                 </div>
 
               </div>
               <div className='column' data-aos="zoom-in">
                 <div className='skill-icon'>
-                  <img src={mongodb} alt = 'mongodb'/>
+                  <img src={mongodb} alt='mongodb' />
                 </div>
                 <div className='skill-icon'>
-                  <img src={nodejs} alt = 'nodejs'/>
+                  <img src={nodejs} alt='nodejs' />
                 </div>
               </div>
 
@@ -93,7 +93,13 @@ export default function About() {
             <p>
               Hi! My name is <span className="">Disha Doshi </span>, a 22-year-old web developer living in Pune, India. I have a Bachelors’s Degree in Computer Science from the Savitribai Phule Pune University. Currently, I work as a full-time software Engineer at a <span className="imp-effect">E-zest Solutions LTD.</span>
             </p>
-            <p>I enjoy solving technical problems, researching and developing new technologies, designing software applications for different platforms. I have a strong background in various programming languages and frameworks such as <span className="imp-effect">Python, C++, C, and React Js.</span></p>
+            <p>I enjoy solving technical problems, researching and
+              developing new technologies, designing software applications
+              for different platforms.
+              </p>
+              <p> I have a strong background in various
+              programming languages and frameworks such as
+              Python, C++, C, and React Js.</p>
           </div>
         </div>
 

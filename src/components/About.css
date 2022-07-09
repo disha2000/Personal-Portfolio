@@ -70,6 +70,11 @@
     opacity: 1;
 }
 
+/* .skill-list{
+    list-style:disc;
+    padding-left: 5%;
+} */
+
 .skill-icon {
     display: flex;
     align-items: center;

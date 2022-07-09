@@ -58,6 +58,7 @@
 .videoanim{
   width: 45%;
   height: 45%;
+  pointer-events: none;
 }
 
 
