@@ -17,7 +17,7 @@ export default function Home() {
         <div className="title"   data-aos="zoom-in-down">
           <h3>Hello, I'am</h3>
           <h1 >Disha Doshi</h1>
-          <div> <h2 >I am a Web Developer </h2> <h3>Think <span style = {{color:'cyan',fontSize:'35px'}}>.</span> Code <span style = {{color:'cyan',fontSize:'35px'}}>.</span> Debugger</h3></div>
+          <div> <h2 >I am a Web Developer </h2> <h3>Think <span style = {{color:'cyan',fontSize:'35px'}}>.</span> Code <span style = {{color:'cyan',fontSize:'35px'}}>.</span> Debug</h3></div>
           
           
           <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Download CV </button></a> 
