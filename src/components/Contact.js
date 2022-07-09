@@ -22,6 +22,7 @@ export default function Contact() {
                 muted
                 playsInline
                 autoPlay
+                defaultMuted
                 loop>
                 <source src={video} type="video/mp4" />
 

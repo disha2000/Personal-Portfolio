@@ -1,6 +1,5 @@
 .About-section {
     position: relative;
-    padding-top: 80px;
     min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
@@ -9,6 +8,7 @@
     width: inherit;
     box-sizing: border-box;
     line-height: 1.7;
+    padding-top: 20px;
 
 }
 

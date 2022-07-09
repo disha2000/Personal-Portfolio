@@ -5,8 +5,8 @@ import { resumeLink,socialLinks} from './data'
 export default function Home() {
   return (
     <div className='home-section'>
-      <div className='home-content'>
-        <div className="home_social">
+     <div className='home-content'>
+     <div className="home_social">
             <div className ="social_icons" data-aos="fade-up-right">
                 <a href = {socialLinks[1].url} className = "icon"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
                 <a  className = "icon"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" strokeLinecap="round" className="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
@@ -15,15 +15,18 @@ export default function Home() {
             </div>
         </div>
         <div className="title"   data-aos="zoom-in-down">
-          <h1 >Hello,<br/> I'm <br/>Disha <br/>Doshi.</h1>
-          <h2 >I am a Web Developer</h2>
-          <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Resume</button></a> 
+          <h3>Hello, I'am</h3>
+          <h1 >Disha Doshi</h1>
+          <div> <h2 >I am a Web Developer </h2> <h3>Think <span style = {{color:'cyan',fontSize:'35px'}}>.</span> Code <span style = {{color:'cyan',fontSize:'35px'}}>.</span> Debugger</h3></div>
+          
+          
+          <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Download CV </button></a> 
         
         </div>
         <div className='img-graident'>
          {/* <img src = {textanim} alt='animated text' className='textanim'></img> */}
         </div>
-      </div>
+     </div>
     </div>
   )
 }
