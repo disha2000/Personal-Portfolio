@@ -17,8 +17,8 @@ export default function Home() {
         <div className='home_content'>
            <div className='home_title'>
                <h3>Hello, I am</h3>
-              <h1> <br/> DISHA DOSHI.</h1>
-              <h2>A Web Developer.</h2>
+              <h1> DISHA DOSHI.</h1>
+              <h2>I am a web developer.</h2>
               <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Download CV </button></a> 
            </div> 
            <div className='img-gradient'>
