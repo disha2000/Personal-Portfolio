@@ -48,10 +48,13 @@
 
   
 }
+.contact-btn{
+  margin: 10% 0px;
+}
 
 .contact_description p{
   padding-top: 20px;
-  font-weight: 200;
+  font-weight: 300;
   
 }
 
