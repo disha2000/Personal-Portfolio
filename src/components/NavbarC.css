@@ -3,7 +3,8 @@
     gap:var(--gap,1rem);
 }
 
-.logo a{
+.logo{
+    cursor: pointer;
     text-decoration: none;
     color: white;
     font-family: Valorant;
@@ -55,6 +56,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     opacity: 0.9;
+    cursor: pointer;
     
 }
 .nav-links:hover{

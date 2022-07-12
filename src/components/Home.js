@@ -4,7 +4,7 @@ import { resumeLink,socialLinks} from './data'
 
 export default function Home() {
   return (
-    <div className='home-section'>
+    <div className='home-section' id = "_home">
       <div className='home_grid'>
           <div className="home_social">
             <div className ="social_icons" data-aos="fade-up-right">

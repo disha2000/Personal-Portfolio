@@ -3,19 +3,29 @@ import './NavbarC.css'
 import { MenuItems } from './data';
 import bar from '../assets/navbar/bars.svg'
 import close from '../assets/navbar/multiply.svg'
+import { Link, animateScroll as scroll } from "react-scroll";
 export default function NavbarC() {
     const [clicked, setClicked] = useState(false);
     const handleClick = function () {
         setClicked(!clicked)
     }
     return (
-        <div className = "Nav-section">
+        <div className="Nav-section">
             <header className='primary-header flex'>
                 <div className='logo'>
-                    <a  href = '#'>disha.</a>
+                    <Link
+
+                        activeClass="active"
+                        to='_home'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        onClick={handleClick}
+                    >disha.</Link>
                 </div>
                 <div className={clicked ? "mobile-nav-toggle open" : "mobile-nav-toggle "} aria-controls='primary-navigation' aria-expanded="false" onClick={handleClick}>
-                    {clicked?<img src = {close} alt = 'close'/>:<img src = {bar} alt = 'bar'/> }
+                    {clicked ? <img src={close} alt='close' /> : <img src={bar} alt='bar' />}
 
                 </div>
                 <nav>
@@ -25,7 +35,16 @@ export default function NavbarC() {
                             return (
 
                                 <li className='active' key={index} data-aos="zoom-in">
-                                    <a className={item.cName} href={item.url} onClick = {handleClick}><span aria-hidden="true">{item.title}</span></a>
+                                    <Link
+                                        className={item.cName}
+                                        activeClass="active"
+                                        to={item.url}
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        onClick={handleClick}
+                                    >{item.title}</Link>
                                 </li>
                             )
                         })}
