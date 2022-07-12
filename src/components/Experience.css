@@ -50,7 +50,7 @@
     
 }
 
-@media (max-width:900px) {
+@media (max-width:920px) {
     .Experience-section .experience_content {
         min-width: auto;
         display: grid;
@@ -59,7 +59,7 @@
     }
     
     .timeline{
-        width: 100% !important;
+        width: 90% !important;
     }
     
 }
@@ -72,6 +72,4 @@
         grid-template-columns: 1fr;
 
     }
-    
-    
 }
