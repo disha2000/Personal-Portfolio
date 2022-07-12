@@ -16,10 +16,15 @@ export default function Home() {
         </div>
         <div className='home_content'>
            <div className='home_title'>
-               <h3>Hello, I am</h3>
-              <h1> DISHA DOSHI.</h1>
-              <h2>I am a web developer.</h2>
-              <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">Download CV </button></a> 
+              <h3>Hi my name is,</h3>
+              <h1>Disha Doshi.</h1>
+              <h4>A passionate Intermediate Software Engineer having experience in building responsive Web applications with JavaScript / Reactjs and some other cool libraries and frameworks.</h4>
+              <div className='home_btn'>
+              <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">RESUME</button></a>
+    
+              </div>
+            
+              
            </div> 
            <div className='img-gradient'>
 
