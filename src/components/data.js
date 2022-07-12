@@ -85,7 +85,7 @@ export const experiences = [
     }
 ]
 
-export const resumeLink = 'https://drive.google.com/file/d/1jSFQEXFlgi7Qd3pk9q64f7FshZPakUPw/view?usp=sharing'
+export const resumeLink = 'https://drive.google.com/file/d/1pQED6c0WmWwtLEP4s0jgNSaSSE_CEBy8/view?usp=sharing'
 export const emailId = 'doshidisha555@gmail.com'
 
 
