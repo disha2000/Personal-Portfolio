@@ -1,22 +1,11 @@
-import React, { useEffect, useRef } from "react"; 
+import React, { useEffect, useRef } from "react";
 import './Contact.css'
 import video from '../assets/video1.mp4'
 import Footer from './Footer';
 import { emailId } from './data';
+import { videoTagString, VideoTag } from 'react-video-tag'
 export default function Contact() {
-  const videoEl = useRef(null);
-
-  const attemptPlay = () => {
-    videoEl &&
-      videoEl.current &&
-      videoEl.current.play().catch(error => {
-        console.error("Error attempting to play", error);
-      });
-  };
-
-  useEffect(() => {
-    attemptPlay();
-  }, []);
+  videoTagString({ src: '...', poster: '...' })
   return (
     <div className='contact-section' id='contact_'>
       <div className='contact_content'>
@@ -30,24 +19,18 @@ export default function Contact() {
             <div className='contact_description'>
               <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
               <a href={"mailto:" + emailId}> <button className="custom-btn btn-4 contact-btn">Contact Me </button></a>
-             
-              <video
-          style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
-          playsInline
-          loop
-          muted
-          className="videoanim"
-          alt="All the devices"
-          src={video}
-          ref={videoEl}
-        />
+
+              <div >
+                  <VideoTag className = 'videoanim' src={video} autoPlay loop playsInline muted />
+              </div>
+              
 
               <div>
-       
-      </div>
-            
+
+              </div>
+
             </div>
-            <Footer/>
+            <Footer />
           </div>
         </div>
 
