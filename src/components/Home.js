@@ -17,9 +17,9 @@ export default function Home() {
         </div>
         <div className='home_content'>
            <div className='home_title'>
-              <h3>Hi my name is,</h3>
-              <h1>Disha Doshi.</h1>
-              <h4>A passionate Intermediate Software Engineer having experience in building <span className='highlight'>responsive web applications</span> with JavaScript / Reactjs and some other cool libraries and frameworks.</h4>
+              <h3 >Hi my name is,</h3>
+              <h1 data-aos="fade-up">Disha Doshi.</h1>
+              <h4 >A passionate Intermediate Software Engineer having experience in building <span className='highlight'>responsive web applications</span> with JavaScript / Reactjs and some other cool libraries and frameworks.</h4>
               <div className='home_btn'>
               <a href={resumeLink}target="_blank">  <button className="custom-btn btn-4">RESUME</button></a>
     
@@ -27,7 +27,7 @@ export default function Home() {
             
               
            </div> 
-           <div className='img-gradient'>
+           <div data-aos="zoom-in" className='img-gradient'>
 
            </div>
         </div>

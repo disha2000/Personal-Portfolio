@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './NavbarC.css'
 import { MenuItems } from './data';
+import bar from '../assets/navbar/bars.svg'
+import close from '../assets/navbar/multiply.svg'
 export default function NavbarC() {
     const [clicked, setClicked] = useState(false);
     const handleClick = function () {
@@ -13,7 +15,7 @@ export default function NavbarC() {
                     disha.
                 </div>
                 <div className={clicked ? "mobile-nav-toggle open" : "mobile-nav-toggle "} aria-controls='primary-navigation' aria-expanded="false" onClick={handleClick}>
-                    {clicked?<i class="uil uil-multiply"></i>: <i class="uil  uil-bars"></i> }
+                    {clicked?<img src = {close} alt = 'close'/>:<img src = {bar} alt = 'bar'/> }
 
                 </div>
                 <nav>
