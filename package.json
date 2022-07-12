@@ -22,14 +22,15 @@
     "react-three-fiber": "^6.0.13",
     "react-tilt": "^0.1.4",
     "react-vanilla-tilt": "^1.0.0",
+    "react-video-tag": "^0.0.10",
     "styled-components": "^5.3.5",
     "three": "^0.128.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

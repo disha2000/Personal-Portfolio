@@ -1,6 +1,5 @@
 .Experience-section{
     position: relative;
-    min-height: calc(100vh - 0px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +7,7 @@
     width: inherit;
     box-sizing: border-box;
     line-height: 1.7;
+    padding:100px 0px;
 
 }
 
@@ -15,7 +15,6 @@
 
     width: 100%;
     display: grid;
-    min-height: calc(100vh - 80px);
     grid-template-columns: 0.2fr 1fr;
 
     place-items: space-between;

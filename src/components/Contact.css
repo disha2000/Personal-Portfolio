@@ -1,6 +1,5 @@
 .contact-section{
   position: relative;
-  min-height: calc(100vh - 120px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,10 +58,10 @@
 }
 
 .videoanim{
-  width: 200px;
-  height: 200px;
+  width: 45%;
+  height: 45%;
   pointer-events: none;
- 
+  
 }
 
 
