@@ -48,13 +48,13 @@ export const projects = [
     {
         title: 'Music Player',
         url: "https://github.com/disha2000/Traffic-Sign-Recognition",
-        description: 'A Desktop application to play music with additional features like shuffline, repeat and many more',
+        description: 'A Desktop application to play music with additional features like shuffling, repeat and many more',
         skills: 'Python, Pygame, Tkinter'
     },
     {
         title: 'Music Player',
         url: "https://github.com/disha2000/Traffic-Sign-Recognition",
-        description: 'A Desktop application to play music with additional features like shuffline, repeat and many more',
+        description: 'A Desktop application to play music with additional features like shuffling, repeat and many more',
         skills: 'Python, Pygame, Tkinter'
     },
 
