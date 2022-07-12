@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useEffect, useRef } from "react"; 
 import './Contact.css'
 import video from '../assets/video1.mp4'
 import Footer from './Footer';
 import { emailId } from './data';
 export default function Contact() {
+  const videoEl = useRef(null);
+
+  const attemptPlay = () => {
+    videoEl &&
+      videoEl.current &&
+      videoEl.current.play().catch(error => {
+        console.error("Error attempting to play", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
   return (
     <div className='contact-section' id='contact_'>
       <div className='contact_content'>
@@ -21,7 +34,7 @@ export default function Contact() {
               <video className = "videoanim"
                 muted
                 playsInline
-                autoPlay
+                ref={videoEl}
                 defaultMuted
                 loop>
                 <source src={video} type="video/mp4" />
