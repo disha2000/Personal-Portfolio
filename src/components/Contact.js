@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react"; 
+import React, { useEffect, useRef } from "react";
 import './Contact.css'
 import video from '../assets/video1.mp4'
 import Footer from './Footer';
@@ -30,20 +30,24 @@ export default function Contact() {
             <div className='contact_description'>
               <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
               <a href={"mailto:" + emailId}> <button className="custom-btn btn-4 contact-btn">Contact Me </button></a>
-             
-              <video className = "videoanim"
-                muted
-                playsInline
-                ref={videoEl}
-                defaultMuted
-                loop>
-                <source src={video} type="video/mp4" />
 
-                Your browser does not support the video tag.
-              </video>
-            
+              <video
+
+                playsInline
+                loop
+                muted
+                className="videoanim"
+                alt="All the devices"
+                src={video}
+                ref={videoEl}
+              />
+
+              <div>
+
+              </div>
+
             </div>
-            <Footer/>
+            <Footer />
           </div>
         </div>
 
