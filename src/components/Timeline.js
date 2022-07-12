@@ -15,7 +15,7 @@ export default function Timeline(props) {
                 {item.descriptions.map(function (point, index1) {
                   return (
 
-                    <p key ={index1}>-<span></span>{point.work}</p>
+                    <p key ={index1}><span className='dash'>- </span>{point.work}</p>
                   )
                 })}
 

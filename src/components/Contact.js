@@ -18,16 +18,15 @@ export default function Contact() {
               <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
               <a href={"mailto:" + emailId}> <button className="custom-btn btn-4 contact-btn">Contact Me </button></a>
              
-              <video className = "videoanim"
-                muted
-                playsInline
-                autoPlay
-                defaultMuted
-                loop>
-                <source src={video} type="video/mp4" />
-
-                Your browser does not support the video tag.
-              </video>
+              <div
+              
+          dangerouslySetInnerHTML={{
+            __html: `<video class = 'videoanim' autoplay loop muted playsinline>
+      <source src=${video} type="video/mp4" />
+      Your browser does not support the video tag.
+</video>`,
+          }}
+        />
             
             </div>
             <Footer/>

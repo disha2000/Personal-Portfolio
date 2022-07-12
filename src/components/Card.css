@@ -1,8 +1,8 @@
 
 
 .card {
-	background: rgba(15,15,15,0.7);
-  backdrop-filter: blur(10px);
+	background: rgba(15,15,15,0.8);
+  
 	margin-bottom: 2em;	
   border-radius: 3px;
   position: relative;

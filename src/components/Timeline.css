@@ -35,7 +35,7 @@
     list-style: none;
     text-align: left;
     font-weight: 100;
-    width: 75%;
+    width: 73%;
     align-items: flex-start;
   
   }
@@ -76,6 +76,9 @@
   }
   .event p span{
     padding-left: 6px;
+  }
+  .dash{
+    font-weight: 900;
   }
   
  
