@@ -4,6 +4,7 @@ import video from '../assets/video1.mp4'
 import Footer from './Footer';
 import { emailId } from './data';
 import { videoTagString, VideoTag } from 'react-video-tag'
+import poster from '../assets/video.gif'
 export default function Contact() {
   videoTagString({ src: '...', poster: '...' })
   return (
@@ -20,10 +21,10 @@ export default function Contact() {
               <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
               <a href={"mailto:" + emailId}> <button className="custom-btn btn-4 contact-btn">Contact Me </button></a>
 
-              <div >
-                  <VideoTag className = 'videoanim' src={video} autoPlay loop playsInline muted />
-              </div>
-              
+              <video className="videoanim" poster={poster}>
+                <source src={video} type="video/mp4"/>
+              </video>
+
 
               <div>
 
