@@ -17,7 +17,7 @@
   display: grid;
   width: 100%;
   min-height: inherit ;
-  grid-template-columns: 0.1fr 1fr;
+  grid-template-columns: 0.1fr 1.9fr;
  
   place-items: space-between;
 }
@@ -27,8 +27,10 @@
  display: grid;
  grid-template-columns: 1.1fr 0.9fr;
  gap: 0px;
- 
-
+}
+.highlight{
+  color: cyan;
+  font-weight: 400;
 }
 
 
