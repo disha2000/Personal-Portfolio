@@ -93,8 +93,8 @@ export default function About() {
             <p>
               Hi! My name is <span className="">Disha Doshi </span>, a 22-year-old web developer living in Pune, India. I have a Bachelors’s Degree in Computer Science from the Savitribai Phule Pune University. Currently, I work as a full-time software Engineer at a <span className="imp-effect">E-zest Solutions LTD.</span>
             </p>
-            <p>I enjoy solving technical problems, researching and
-              developing new technologies, designing software applications
+            <p>I enjoy solving technical problems, researching,
+                and designing software applications
               for different platforms.
               </p>
               <p> I have a strong background in various
