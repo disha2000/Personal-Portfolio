@@ -25,7 +25,7 @@ export default function About() {
         <div className="unused"></div>
         <div className='skill_section'>
 
-          <Tilt id="tilt_effect" options={{ perspective: 470, max: 50, speed: 400 }}>
+          <Tilt className = 'tilt-skill' id="tilt_effect" options={{ perspective: 470, max: 50, speed: 400 }}>
             <div className="about_skills" >
 
               <div className='column' data-aos="zoom-out-right">

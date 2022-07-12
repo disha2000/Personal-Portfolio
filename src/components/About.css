@@ -149,4 +149,11 @@
 
     }
     
+    
+}
+
+@media (max-width:500px) {
+    .tilt-skill{
+        transform: none !important;
+    }
 }
