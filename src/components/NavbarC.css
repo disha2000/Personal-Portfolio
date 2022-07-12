@@ -2,12 +2,14 @@
     display: flex;
     gap:var(--gap,1rem);
 }
-.logo{
+
+.logo a{
+    text-decoration: none;
+    color: white;
     font-family: Valorant;
     font-size: 20px;
     text-shadow: 0 0 3px #0bf4f3;
 }
-
 .Nav-section{
     position:fixed;
     top:0;

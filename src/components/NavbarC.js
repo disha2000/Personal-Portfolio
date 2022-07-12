@@ -12,7 +12,7 @@ export default function NavbarC() {
         <div className = "Nav-section">
             <header className='primary-header flex'>
                 <div className='logo'>
-                    disha.
+                    <a  href = '#'>disha.</a>
                 </div>
                 <div className={clicked ? "mobile-nav-toggle open" : "mobile-nav-toggle "} aria-controls='primary-navigation' aria-expanded="false" onClick={handleClick}>
                     {clicked?<img src = {close} alt = 'close'/>:<img src = {bar} alt = 'bar'/> }
